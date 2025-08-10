@@ -25,9 +25,6 @@ object Preferences {
 
     // UI
     const val SCROLL_INCREMENT = 16
-    const val BUTTON_HEIGHT = 25
-    const val BUTTON_WIDTH = 100
-    const val ZOOM_BUTTON_WIDTH = 45
     const val TILE_PREVIEW_SIZE = 64
     const val TILE_CONTAINER_SIZE = 74
     

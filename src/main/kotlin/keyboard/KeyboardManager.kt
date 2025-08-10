@@ -54,8 +54,4 @@ class KeyboardManager {
     fun addEventListener(event: KeyboardEvent, callback: () -> Unit) {
          listeners[event] = callback
     }
-
-    fun removeEventListener(event: KeyboardEvent) {
-        listeners.remove(event)
-    }
 }

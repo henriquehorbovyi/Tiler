@@ -156,8 +156,13 @@ class MainWindow : JFrame(), MenuCallbacks {
             val buttonsPanel = JPanel().apply {
                 layout = BorderLayout()
                 background = Preferences.PANEL_COLOR
-                add(changeSolidStateButton, BorderLayout.NORTH)
-                add(loadTilesButton, BorderLayout.SOUTH)
+                changeSolidStateButton?.let {
+                    add(it, BorderLayout.NORTH)
+                }
+
+                loadTilesButton?.let {
+                    add(it, BorderLayout.SOUTH)
+                }
             }
 
             add(buttonsPanel, BorderLayout.SOUTH)
