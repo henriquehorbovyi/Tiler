@@ -1,4 +1,4 @@
-package com.henriquehorbovyi.tiling.keyboard
+package com.henriquehorbovyi.tiler.keyboard
 
 sealed class KeyboardEvent {
     object Undo : KeyboardEvent()

@@ -1,4 +1,4 @@
-package com.henriquehorbovyi.tiling.keyboard
+package com.henriquehorbovyi.tiler.keyboard
 
 import java.awt.KeyEventDispatcher
 import java.awt.KeyboardFocusManager

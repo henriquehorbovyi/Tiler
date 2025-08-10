@@ -1,4 +1,4 @@
-package com.henriquehorbovyi.tiling
+package com.henriquehorbovyi.tiler
 
 import javax.swing.SwingUtilities
 

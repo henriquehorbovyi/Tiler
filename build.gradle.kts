@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "2.1.21"
 }
 
-group = "com.henriquehorbovyi.tiling"
+group = "com.henriquehorbovyi.tiler"
 version = "1.0-SNAPSHOT"
 
 repositories {

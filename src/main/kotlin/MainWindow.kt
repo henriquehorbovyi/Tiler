@@ -1,25 +1,24 @@
-package com.henriquehorbovyi.tiling
+package com.henriquehorbovyi.tiler
 
-import com.henriquehorbovyi.tiling.keyboard.KeyboardEvent
-import com.henriquehorbovyi.tiling.keyboard.KeyboardManager
-import com.henriquehorbovyi.tiling.menu.Menu
-import com.henriquehorbovyi.tiling.menu.MenuCallbacks
+import com.formdev.flatlaf.FlatDarkLaf
+import com.henriquehorbovyi.tiler.keyboard.KeyboardEvent
+import com.henriquehorbovyi.tiler.keyboard.KeyboardManager
+import com.henriquehorbovyi.tiler.menu.Menu
+import com.henriquehorbovyi.tiler.menu.MenuCallbacks
+import org.json.JSONObject
+import org.json.JSONTokener
 import java.awt.BorderLayout
 import java.awt.Cursor
 import java.awt.Dimension
 import java.awt.GridLayout
+import java.awt.event.InputEvent
+import java.awt.event.KeyEvent
 import java.awt.event.MouseAdapter
 import java.awt.event.MouseEvent
 import java.io.File
 import javax.swing.*
 import javax.swing.border.EmptyBorder
 import javax.swing.filechooser.FileFilter
-import javax.swing.UIManager
-import com.formdev.flatlaf.FlatDarkLaf
-import java.awt.event.InputEvent
-import java.awt.event.KeyEvent
-import org.json.JSONObject
-import org.json.JSONTokener
 import javax.swing.filechooser.FileNameExtensionFilter
 
 class MainWindow : JFrame(), MenuCallbacks {

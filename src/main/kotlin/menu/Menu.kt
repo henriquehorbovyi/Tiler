@@ -1,6 +1,6 @@
-package com.henriquehorbovyi.tiling.menu
+package com.henriquehorbovyi.tiler.menu
 
-import com.henriquehorbovyi.tiling.Preferences
+import com.henriquehorbovyi.tiler.Preferences
 import java.awt.Color
 import javax.swing.JMenu
 import javax.swing.JMenuBar

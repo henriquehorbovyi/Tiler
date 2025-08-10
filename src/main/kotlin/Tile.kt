@@ -1,4 +1,4 @@
-package com.henriquehorbovyi.tiling
+package com.henriquehorbovyi.tiler
 
 import java.awt.image.BufferedImage
 import javax.swing.ImageIcon
